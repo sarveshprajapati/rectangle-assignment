@@ -1,23 +1,15 @@
-import logo from './logo.svg';
+// import UseStateWithPrevState from "./components/UseStateWithPrevState";
+// import UseStateWithArray from "./components/UseStateWithArray";
+// import UseStateWithObject from "./components/UseStateWithObject";
 import './App.css';
+import CenterRect from "./components/CenterRect";
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <h1>Hey There React</h1> */}
+      <CenterRect />
     </div>
   );
 }
